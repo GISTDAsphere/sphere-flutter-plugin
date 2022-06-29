@@ -1,0 +1,29 @@
+name: sphere_maps_flutter
+description: "Flutter plugin for integrating Sphere Maps in iOS and Android applications."
+version: 1.0.0
+homepage: "https://dev.sphere.gistda.or.th/"
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: th.or.gistda.sphere.sphere_maps_flutter
+        pluginClass: SphereMapsFlutterPlugin
+      ios:
+        pluginClass: SphereMapsFlutterPlugin
+  assets:
+    - index.html
