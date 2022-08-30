@@ -1,2 +1,5 @@
+## 1.0.1
+- Tile fixed
+
 ## 1.0.0
-- Describe initial
+- Initial
