@@ -1,6 +1,6 @@
 name: sphere_maps_flutter
 description: "Flutter plugin for integrating Sphere Maps in iOS and Android applications."
-version: 1.0.1
+version: 1.0.2
 homepage: "https://sphere.gistda.or.th/"
 
 environment:
